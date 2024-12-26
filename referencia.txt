@@ -1,0 +1,20 @@
+A criação desse projeto, desenvolvido por Alan Ryan da Silva Domingues,
+teve como base os seguintes materiais de apoio e recursos utilizados,
+com o último acesso registrado em 26 de dezembro de 2024.
+
+|Alan-------------------------20--------------------------------|
+|                                                               |  
+|   https://youtu.be/f5ZswIE_SgY?si=Jc-zBSJ0Cdn77inL            |
+|   ("Matrix Rain Experiments in JavaScript (tutorial)"         |
+|    - "Franks laboratory")                                     |
+|---------------------------------------------------------------|   
+|   https://www.favicon.cc/?action=icon&file_id=830818          |  
+|   ("favicon.cc" - "Matrix Favicon")                           |  
+|---------------------------------------------------------------|   
+|   https://favicomatic.com/                                    |  
+|   ("Favic-o-Matic")                                           | 
+|---------------------------------------------------------------|   
+|   http://www.rw-designer.com/                                 |  
+|   ("RealWorld Graphics")                                      | 
+|                                                               |
+|-----------------------------24----------------------------Ryan|   

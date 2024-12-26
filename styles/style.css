@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: black;
+    animation: none;
+    cursor: url(../assets/cur/normal-select.cur), auto;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 40px rgba(0, 255, 0, 0.6);
+    touch-action: none;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#startScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.startText {
+    color: #00FF00;
+    font-size: 2.5em;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    text-shadow: 0 0 5px #00FF00;
+    cursor: pointer;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out forwards,
+        typing 3s steps(30) forwards,
+        glow 2s infinite alternate;
+}
+
+
+#animationSection {
+    display: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #00FF00;
+    }
+
+    100% {
+        text-shadow: 0 0 10px #00FF00;
+    }
+}
