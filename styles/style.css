@@ -93,11 +93,12 @@ html {
 .startText {
     color: #00FF00;
     font-size: 2.5em;
-    font-family: 'Courier New', monospace;
+    font-family: 'minisystem', monospace;
     text-align: center;
-    text-shadow: 0 0 5px #00FF00;
+    font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 5px;
     cursor: pointer;
-    opacity: 0;
     white-space: nowrap;
     overflow: hidden;
     animation: fadeIn 1s ease-in-out forwards,
@@ -105,6 +106,12 @@ html {
         glow 2s infinite alternate;
 }
 
+.startText:hover {
+    transform: scale(1.05) rotate(0.5deg);
+    transition: transform 0.2s ease, color 0.2s ease, filter 0.2s ease;
+    color: rgba(38, 235, 38, 0.959);
+    filter: brightness(1.1);
+}
 
 #animationSection {
     display: none;

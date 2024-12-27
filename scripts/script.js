@@ -239,7 +239,7 @@ function startAnimation() {
         animationSection.style.display = 'block';
         setGreenGradient();
         animate(0);
-        backgroundMusic.play(); // Inicia a reprodução da música
+        backgroundMusic.play();
         showAlertBox();
     }
 }
@@ -256,7 +256,7 @@ function showAlertBox() {
         color: "#00FF00",
         fontSize: "24px",
         fontWeight: "bold",
-        fontFamily: "'Courier New', monospace",
+        fontFamily: "'receipt', monospace",
         borderRadius: "15px",
         boxShadow: "0 0 20px rgba(0, 255, 0, 0.8), 0 0 40px rgba(0, 255, 0, 0.6)",
         textAlign: "center",
@@ -417,7 +417,6 @@ canvas.addEventListener('touchstart', function (e) {
     const circle = new CircleEffect(touch.clientX, touch.clientY);
     circleEffects.push(circle);
 });
-
 
 canvas.addEventListener('touchend', function (e) {
     touchEndTime = new Date().getTime();
