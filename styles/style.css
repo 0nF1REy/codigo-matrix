@@ -14,42 +14,47 @@ body {
 
 @keyframes gradientBackground {
     0% {
-      background: 
-          radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 60%, rgb(0, 0, 0) 100%),
-          linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
-          linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+        background:
+            radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 60%, rgb(0, 0, 0) 100%),
+            linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+            linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
     }
+
     20% {
-          background: 
-              radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 30, 0) 10%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
-              linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
-              linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
-     }
-      40% {
-          background: 
-              radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 40%, rgb(0, 30, 0) 60%, rgb(0, 0, 0) 100%),
-              linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
-              linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
-      }
-      60% {
-          background: 
-               radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 30, 0) 10%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
-               linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
-               linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
-      }
-    80% {
-         background: 
-              radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 40%, rgb(0, 30, 0) 60%, rgb(0, 0, 0) 100%),
-             linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
-              linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+        background:
+            radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 30, 0) 10%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+            linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+            linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
     }
-      100% {
-          background: 
-              radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 60%, rgb(0, 0, 0) 100%),
-              linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
-              linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
-      }
-  }
+
+    40% {
+        background:
+            radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 40%, rgb(0, 30, 0) 60%, rgb(0, 0, 0) 100%),
+            linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+            linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+    }
+
+    60% {
+        background:
+            radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 30, 0) 10%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+            linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+            linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+    }
+
+    80% {
+        background:
+            radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 40%, rgb(0, 30, 0) 60%, rgb(0, 0, 0) 100%),
+            linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+            linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+    }
+
+    100% {
+        background:
+            radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 60%, rgb(0, 0, 0) 100%),
+            linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+            linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+    }
+}
 
 canvas {
     width: 100vw;
