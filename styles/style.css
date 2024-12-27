@@ -6,10 +6,50 @@
 
 body {
     overflow: hidden;
-    background: black;
     animation: none;
     cursor: url(../assets/cur/normal-select.cur), auto;
+    background: linear-gradient(45deg, #000000, #000000);
+    animation: gradientBackground 30s linear infinite;
 }
+
+@keyframes gradientBackground {
+    0% {
+      background: 
+          radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 60%, rgb(0, 0, 0) 100%),
+          linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+          linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+    }
+    20% {
+          background: 
+              radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 30, 0) 10%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+              linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+              linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+     }
+      40% {
+          background: 
+              radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 40%, rgb(0, 30, 0) 60%, rgb(0, 0, 0) 100%),
+              linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+              linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+      }
+      60% {
+          background: 
+               radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 30, 0) 10%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+               linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+               linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+      }
+    80% {
+         background: 
+              radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 40%, rgb(0, 30, 0) 60%, rgb(0, 0, 0) 100%),
+             linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+              linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+    }
+      100% {
+          background: 
+              radial-gradient(circle at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 60%, rgb(0, 0, 0) 100%),
+              linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%, rgb(0, 0, 0) 100%),
+              linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+      }
+  }
 
 canvas {
     width: 100vw;
@@ -43,7 +83,6 @@ html {
     top: 0;
     left: 0;
     z-index: 10;
-    background: rgba(0, 0, 0, 0.9);
 }
 
 .startText {
